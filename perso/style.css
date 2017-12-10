@@ -1,0 +1,35 @@
+html {
+	background-color: #f4f4f4;
+}
+
+.cadre {
+	width: 1200px;
+	margin: auto;
+	padding: 30px;
+	background: white;
+	border: 2px dashed grey;
+	-moz-border-radius :5px;
+}
+
+.profil {
+	width: 100%;
+	border: 1px solid #C3C3C3;
+}
+
+.profilimg {
+	width: 20%;
+	margin-left: 1%;
+	height: auto;
+	float: left;
+	margin-top: 10px;
+}
+
+.profilinfo {
+	width: 77%;
+	float: left;
+	color: #OOAF50;
+	margin-top: 5%;
+	margin-left: 1%;
+	font-size: 1.1vw
+}
+

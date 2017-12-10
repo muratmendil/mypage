@@ -1,0 +1,105 @@
+#cadre {
+width:1200px;
+ margin: auto;
+padding:30px; 
+ background:#F4F4F4;
+border:3px solid grey;
+ border-radius:20px;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+}
+
+/* body {
+background-image:url(http://a403.idata.over-blog.com/2/25/98/74/01-fond-2013/fond-espace.jpg);
+} */
+
+body {
+background-color:black;
+}
+
+.header{
+text-align: center;	
+height: 60px;
+width: 100%;
+background-color: #5C5B5B;
+font-size: 11px;
+font-weight : bold;
+}
+
+
+.header ul{
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.header ul li a{
+text-decoration: none;
+color: #FFFFFF;
+display: block; 
+
+}
+
+.header ul li {
+display: inline-block;
+width: 140px;
+height: 80px;
+font-size: 14px;
+line-height: 60px;
+}
+
+.header ul li a:hover{
+background-color: blue;
+}
+
+@media all and (max-width: 1280px){
+	body{
+		width: 90%;
+		font-size: 95%;
+	}
+	
+
+#cadre {
+width:auto;
+ margin: auto;
+padding:30px; 
+ background:#F4F4F4;
+border:3px solid grey;
+ border-radius:20px;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+}
+
+.header{
+text-align: center;	
+height: auto;
+width: auto;
+background-color: #5C5B5B;
+font-size: 11px;
+font-weight : bold;
+}
+
+
+.header ul{
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.header ul li a{
+text-decoration: none;
+color: #FFFFFF;
+display: block; 
+
+}
+
+.header ul li {
+display: inline-block;
+width: 100%;
+height: 50px;
+font-size: 16px;
+line-height: 40px;
+text-align: center;
+}
+
+}

@@ -16,8 +16,8 @@
 		<!-- SCRIPTS -->
 		<script type="text/javascript" src="./js/fichier.js" asynch></script>
 	</head>
-	
- <body><!-- Corps de la page -->
+		
+	<body><!-- Corps de la page -->
 		<div id="cadre">
 		<p align="center"><img src="./img/logo.png" width="300px" alt="logo du siteWeb"></p>
 		<hr width= 75% color=#OOAF50 size="10"> 
@@ -32,24 +32,46 @@
 			</div>
 		</div>	
 		<br/>
-
+		
 <!-- Corps -->
-		<div id="cadre">
-		<h2><u><p align="center"> Conclusion :</p></h2></u>
-		<br/>
 
-		Bonjour et bienvenue sur mon site.
+		<div id="cadre">
+		<h2><p align="center"> Contact</p></h2>
 		<br/>
-		Sur mon site vous trouverez mon cv. 
-		<br/>
-		Bientôt, il y aura plusieurs fonctions sur ce site, des langages JS, Angular et d'autres encore seront utilisés !
-		</div>
-	<br/>
+		
+<form action="mailto:murat.mendil@yahoo.com" method="post" name="contact">
+<fieldset><legend>Formulaire </legend>
+Prénom NOM: 
+<input name="votre nom"><p>
+Votre sexe: 
+<input type="radio" name="sexe" value="homme">un Homme 
+<input type="radio" name="sexe" value="femme">une Femme<p>
+Etes vous de Paris ?: 
+<input type="checkbox" name="ville" value="mineur"> Oui 
+<input type="checkbox" name="ville" value="majeur"> Non<p>
+Gravité du probléme: 
+<select name="age">
+<option value="Faible">Faible
+<option value="Moyen">Moyen
+<option value="Haut">Haut
+</select><p>
+Votre message:<br>
+<textarea name="message" rows="6" cols="35">Tapez ici votre message ici</textarea><p>
+<p><input type="reset" name="reinitialiser" value="Reinitialiser"/></p>
+<input type="submit" value="Envoyer">
+
+				
+</fieldset>
+</form>
+</div>
+
+<br/>
+
 <!-- Footer -->
 
 		<div id="cadre">
 		
 Site crée par Murat MENDIL, étudiant en master d'Architecte Logiciel et en alternance chez Surfy !
-</div>
+
 	</body>
 </html>
