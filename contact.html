@@ -39,30 +39,30 @@
 		<h2><p align="center"> Contact</p></h2>
 		<br/>
 		
-<form action="mailto:murat.mendil@yahoo.com" method="post" name="contact">
-<fieldset><legend>Formulaire </legend>
-Prénom NOM: 
-<input name="votre nom"><p>
-Votre sexe: 
-<input type="radio" name="sexe" value="homme">un Homme 
-<input type="radio" name="sexe" value="femme">une Femme<p>
-Etes vous de Paris ?: 
-<input type="checkbox" name="ville" value="mineur"> Oui 
-<input type="checkbox" name="ville" value="majeur"> Non<p>
-Gravité du probléme: 
-<select name="age">
-<option value="Faible">Faible
-<option value="Moyen">Moyen
-<option value="Haut">Haut
-</select><p>
-Votre message:<br>
-<textarea name="message" rows="6" cols="35">Tapez ici votre message ici</textarea><p>
-<p><input type="reset" name="reinitialiser" value="Reinitialiser"/></p>
-<input type="submit" value="Envoyer">
+			<form action="mailto:murat.mendil@yahoo.com" method="post" name="contact">
+			<fieldset><legend>Formulaire </legend>
+			Prénom NOM: 
+			<input name="votre nom"><p>
+			Votre sexe: 
+			<input type="radio" name="sexe" value="homme">un Homme 
+			<input type="radio" name="sexe" value="femme">une Femme<p>
+			Etes vous de Paris ?: 
+			<input type="checkbox" name="ville" value="mineur"> Oui 
+			<input type="checkbox" name="ville" value="majeur"> Non<p>
+			Gravité du probléme: 
+			<select name="age">
+			<option value="Faible">Faible
+			<option value="Moyen">Moyen
+			<option value="Haut">Haut
+			</select><p>
+			Votre message:<br>
+			<textarea name="message" rows="6" cols="35">Tapez ici votre message ici</textarea><p>
+			<p><input type="reset" name="reinitialiser" value="Reinitialiser"/></p>
+			<input type="submit" value="Envoyer">
 
-				
-</fieldset>
-</form>
+							
+			</fieldset>
+			</form>
 </div>
 
 <br/>
@@ -70,8 +70,9 @@ Votre message:<br>
 <!-- Footer -->
 
 		<div id="cadre">
-		
-Site crée par Murat MENDIL, étudiant en master d'Architecte Logiciel et en alternance chez Surfy !
-
+				<script>
+						document.write("Site crée par " + murat.prenom + " " + murat.nom + ", étudiant en master d'" + murat.formation + " et en alternance chez  " + murat.alternance);
+				</script>
+		</div>
 	</body>
 </html>
