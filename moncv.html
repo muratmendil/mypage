@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
-		<title> Site de Murat </title>
+		<title> Site de Murat - CV </title>
 
 		<!-- METAS -->
 		<meta charset="utf-8">
@@ -14,7 +14,7 @@
 		<link href="./styles/style.css" rel="stylesheet" type="text/css">
 
 		<!-- SCRIPTS -->
-		<script type="text/javascript" src="./js/fichier.js" asynch></script>
+		<script type="text/javascript" src="./js/js.js" asynch></script>
 	</head>
 
  <body><!-- Corps de la page -->
@@ -48,15 +48,21 @@
 		<div id="cadre">
 		
 		<!-- Présentation -->
-		<div id="presentation"><p style="text-align: center; font-size: 1.2vw; color: #00AF50;"> PRESENTATION </p>
+		<div id="presentation"><h2><p style="text-align: center; color: #00AF50;"> PRESENTATION </p></h2>
 		<br/>
 		<table border="0">
-		<td><img src="./img/murat.jpg" alt="Photo de Murat MENDIL" width="170" height="200" /></td>
-		<td><p style="text-align: right;">Murat MENDIL</p>
-		<p style="text-align: right;">23ans / Permis B </p>
-		<p style="text-align: right;">24 rue henri mondors</p>
-		<p style="text-align: right;">93110 Rosny-sous-bois</p>
-		<p style="text-align: right;">mendil.murat@yahoo.com</p>
+		<td><img src="./img/murat.jpg" alt="Photo de Murat MENDIL" width="170" height="180" /></td>
+		<td>
+			<p style="text-align: right;">
+				<script>
+					document.write( murat.prenom + " " + murat.nom + 
+									"<br/>" + murat.age + " ans / " + murat.permis +
+									"<br/>" + murat.adresse +
+									"<br/>" + murat.codepostal + " " + murat.ville +
+									"<br/>" + murat.mail
+									);
+				</script>
+			</p>
 		</td>
 		</table>
 		<br/>
@@ -65,7 +71,7 @@
 			
 			
 			<!-- Formations et Diplômes -->
-			<div id="formations"><p style="text-align: center; font-size: 1.2vw; color: #00AF50;"> FORMATIONS ET DIPLÔMES </p>
+			<div id="formations"><h2><p style="text-align: center; color: #00AF50;"> FORMATIONS ET DIPLÔMES </p></h2>
 			<br/>
 			<p><strong><em><span style="color: #ff0000;">En cours</span></em></strong>&nbsp; &nbsp;BAC +4 Architecte Logiciel  –  Nextadvance école supérieure du groupe NEXT, PARIS (75)</p>
 
@@ -81,7 +87,7 @@
 			
 			
 			<!-- Expériences Professionnelles -->
-			<div id="experiences"><p style="text-align: center; font-size: 1.2vw; color: #00AF50;"> EXPÉRIENCES PROFESSIONNELLES</p>
+			<div id="experiences"><h2><p style="text-align: center; color: #00AF50;"> EXPÉRIENCES PROFESSIONNELLES</p></h2>
 			<br/>
 
 			<!-- MASTER 1 -->
@@ -118,7 +124,7 @@
 			<br/>
 			</div>
 			<!-- Compétences Professionnelles -->
-			<div id="competences"><p style="text-align: center; font-size: 1.2vw; color: #00AF50;"> COMPÉTENCES PROFESSIONNELLES</p>
+			<div id="competences"><h2><p style="text-align: center; color: #00AF50;"> COMPÉTENCES PROFESSIONNELLES</p></h2>
 			<br/>
 			
 			</div>	
@@ -131,8 +137,12 @@
 <!-- Footer -->
 
 		<div id="cadre">
-		
-Site crée par Murat MENDIL, étudiant en master d'Architecte Logiciel et en alternance chez Surfy !
+			<script>
+				document.write("Site crée par " + murat.prenom + " " + murat.nom + ", étudiant en master d'" + murat.formation + " et en alternance chez  " + murat.alternance);
+			</script>
+
+		<!-- <p id="demo">bonjour</p> -->
+		</div>
 
 	</body>
 </html>

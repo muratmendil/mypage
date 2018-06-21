@@ -6,6 +6,7 @@ function person(prenom,nom,age,formation,permis,codepostal,adresse,ville,mail,al
 	this.permis = permis;
 	this.codepostal = codepostal;
 	this.adresse = adresse;
+	this.ville = ville;
 	this.mail = mail;
 	this.alternance = alternance;
 }
@@ -22,3 +23,5 @@ document.getElementById("demo").innerHTML = murat.autre();
 */
 
 //document.getElementById("footer").innerHTML = "Site crée par " + murat.prenom + " " + murat.nom + ", étudiant en master d'Architecte Logiciel et en alternance chez " + murat.alternance;
+
+document.getElementById("demo") = "Murat";
